@@ -1,0 +1,11 @@
+airbyte_dbt_test:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: 68.183.193.113
+      port: 5433
+      user: myuser
+      password: mypassword
+      database: ceipaldb
+      schema: pokemon
